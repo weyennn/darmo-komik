@@ -181,9 +181,9 @@ test("ordinary audio and non-audio requests remain usable", async () => {
 test("audio metadata exactly matches the deploy audio files", async () => {
   const metadata = await validateAudioMetadata(projectRoot);
   assert.deepEqual(metadata, {
-    "/assets/audio/en/story.mp3": 6457095,
-    "/assets/audio/id/story.mp3": 6457095,
-    "/assets/audio/jv/story.mp3": 8393082,
+    "/assets/audio/en/story.mp3": 4035702,
+    "/assets/audio/id/story.mp3": 4035702,
+    "/assets/audio/jv/story.mp3": 5245694,
   });
 });
 
